@@ -1,0 +1,15 @@
+[package]
+name = "memrium-convert"
+version = "0.1.0"
+edition = "2021"
+description = "A picture converter with quality, size and background options."
+license = "MIT"
+repository = "https://github.com/Supchik22/memrium-convert"
+
+[[bin]]
+name = "memrium_convert"
+path = "src/main.rs"
+
+[dependencies]
+chebrium = { git = "https://github.com/Supchik22/chebrium" }
+memrium-de = { git = "https://github.com/Supchik22/memrium" }
